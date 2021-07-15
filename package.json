@@ -1,0 +1,39 @@
+{
+	"name": "webpack-demo",
+	"version": "1.0.0",
+	"private": true,
+	"license": "MIT",
+	"prettier": {
+		"printWidth": 100,
+		"singleQuote": true,
+		"trailingComma": "es5",
+		"bracketSpacing": true,
+		"semi": true,
+		"jsxBracketSameLine": false,
+		"parser": "babel",
+		"tabWidth": 2,
+		"useTabs": true,
+		"overrides": [
+			{
+				"files": "*.html",
+				"options": {
+					"parser": "html"
+				}
+			},
+			{
+				"files": "*.json",
+				"options": {
+					"parser": "json"
+				}
+			}
+		]
+	},
+	"devDependencies": {
+		"prettier": "^2.3.2",
+		"webpack": "^5.44.0",
+		"webpack-cli": "^4.7.2"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	}
+}
