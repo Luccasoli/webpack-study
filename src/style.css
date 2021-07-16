@@ -1,4 +1,11 @@
+@font-face {
+	font-family: 'myFont';
+	src: url('./Roboto,Zen_Loop/Zen_Loop/ZenLoop-Regular.ttf');
+}
+
 .hello {
 	color: red;
 	background: url('./icon.png');
+	font-family: 'myFont';
+	font-size: 50px;
 }
