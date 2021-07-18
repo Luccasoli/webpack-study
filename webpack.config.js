@@ -8,7 +8,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'Development',
+			title: 'Caching',
 		}),
 	],
 	devtool: 'inline-source-map',
@@ -16,7 +16,7 @@ module.exports = {
 		contentBase: './dist',
 	},
 	output: {
-		filename: '[name].bundle.js',
+		filename: '[name].[contenthash].bundle.js',
 		path: path.resolve(__dirname, 'dist'),
 		clean: true,
 	},
