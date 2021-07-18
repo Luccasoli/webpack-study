@@ -4,15 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 	mode: 'development',
 	entry: {
-		index: {
-			import: './src/index.js',
-			dependOn: 'shared',
-		},
-		another: {
-			import: './src/another-module.js',
-			dependOn: 'shared',
-		},
-		shared: 'lodash',
+		index: './src/index.js',
+		another: './src/another-module.js',
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
@@ -30,6 +23,8 @@ module.exports = {
 		publicPath: '/',
 	},
 	optimization: {
-		runtimeChunk: 'single',
+		splitChunks: {
+			chunks: 'all',
+		},
 	},
 };
