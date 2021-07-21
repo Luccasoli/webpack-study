@@ -19,7 +19,7 @@ In this package i'm implementing all sections in the webpack guide tutorial: htt
 
   
 ## 🚀 About Me
-I'm a full stack developer (but a prefer to work with front-end/mobile <3), living at Brazil, that loves to learn about new things, and understand how the things works under the hood. 
+I'm a full stack developer (but a prefer to work with front-end/mobile <3), living in Brazil, that loves to learn about new things, and understand how the things works under the hood. 
 
 And about this project, it exists because i was tired to just use tools that abstract bundle process, just ignoring how they works (CRA and Next Js) and this reposity it's my try to learn more about the bundle process.
 
