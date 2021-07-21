@@ -2,7 +2,7 @@
 
 In this package i'm implementing all sections in the webpack guide tutorial: https://webpack.js.org/guides/
 
-![Logo](https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.svg)
+![Logo](https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-dark-bg.svg)
 
 ## Roadmap
 
