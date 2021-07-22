@@ -12,6 +12,8 @@ In this package i'm implementing all sections in the webpack guide tutorial: htt
 
 - Compare with your current knowledge about tools like CRA and Next js
 
+- In each commit, i'll do a section of guide tutorial
+
   
 ## Documentation
 
